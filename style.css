@@ -1,0 +1,613 @@
+
+html{scroll-behavior: smooth;}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Muli', sans-serif;
+}
+li{list-style-type: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+
+.color{color: green;}
+
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff url('images/preloader.gif') no-repeat center;
+	z-index: 99999;
+	}
+
+
+nav ul li a{text-decoration: none;}
+
+nav{
+	max-width: 100%;
+}
+
+nav ul li a {
+	font-size: 1.1rem;
+	font-weight: bold;
+    color: #000!important;
+    transition: .3s;
+   
+}
+nav ul li a:hover{color: #cc7a00!important;}
+
+nav a img{
+	width:60px; height:60px;
+}
+nav .navbar-text h1{
+	font-size: 1.5rem;
+	color: #000;
+	font-weight: bold;
+}
+nav .navbar-text span{color: red;}
+nav ul li a i{padding: 5px;}
+
+
+
+
+/**********  main-header css starts ********/
+.heado{
+	background-image: url('images/shapelined.jpg');
+	width: 100%;
+	
+}
+.main-header{
+	height: auto;
+	width: 100%;
+	
+}
+
+
+.main-header .left-side-content{
+	text-align: center!important;
+}
+.main-header .left-side-content h1{
+	padding: 20px 0 30px 0;
+	font-size: 2.2rem;
+	text-shadow: 1px 1px 5px #3385ff;
+	text-align: center!important;
+	color: #000;
+}
+.main-header .left-side-content h3{
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-align: left!important;
+	color: #000;
+}
+.main-header .left-side-content h2{
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-align: left;
+	color: #cc7a00;
+}
+
+.main-header .corona-gif{
+	max-width: 100%;
+	overflow: hidden;
+}
+.main-header .corona-gif img{
+	max-width: 100%;
+	height: auto;
+	animation: gocorona 12s linear infinite;
+}
+@keyframes gocorona{
+	0% {transform: rotate(0);}
+	100% {transform: rotate(360deg);}
+}
+
+
+.main-header .soldier img{
+	max-width: 100%; 
+	height: auto;
+}
+
+
+.cases{
+	font-size: 1.2rem;
+	text-align: left!important;
+	font-weight: bold;
+	padding: 5px 0 8px 0;
+}
+
+.cases-no{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.list-icon li::before {
+	content: "\2022";
+	color: #ffc107;
+	font-weight: bold;
+	font-size: 1.5rem;
+	display: inline-block;
+	width: 1.5rem;
+}
+.list-icon li:nth-child(2)::before {
+	content: "\2022";
+	color: #28a745;
+	font-weight: bold;
+	font-size: 1.5rem;
+	display: inline-block;
+	width: 1.5rem;
+}
+.list-icon li:nth-child(3)::before {
+	content: "\2022";
+	color: #dc3545;
+	font-weight: bold;
+	font-size: 1.5rem;
+	display: inline-block;
+	width: 1.5rem;
+}
+/**********  main-header css ends ********/
+
+
+
+
+
+/**********  third-header css starts ********/
+.third-header{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	width: 100%;
+	height: cover;
+	background-image: linear-gradient(to top, #cfd9df 30%, #e2ebf0 60%);
+	position: relative;
+}
+
+
+
+.heading2 h1{
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+}
+.row-content2 h2{
+	text-transform: capitalize;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-top: 20px;
+	color: #000;
+}
+
+.row-content2{
+	margin: 20px 0 25px 0!important;
+	justify-content: center;
+	align-items: center;
+     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+     border-radius: 20px;
+     background: rgba(63,94,251,.1);
+    
+     position: relative;
+    
+     padding : 40px;
+     transition: .4s all;
+   
+   
+}
+.row-content2:hover{
+	 transform: translateY(-20px);
+}
+
+
+.row-content2 img{
+	width: 90px;
+	height: 90px;
+	background-color: #ffff00;
+	border-radius: 50%;
+	padding: 12px;
+
+}
+
+/**********  third-header css ends ********/
+
+
+
+
+
+
+
+                                 /**********  second-header css starts ********/
+.second-header{
+	height: auto;
+	width: 100%;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+
+.second-header .sick-gif img{
+	max-width: 100%;
+	height: auto;
+}
+.heading1{margin-bottom: 50px;}
+.heading1 h1{
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+    color: #000;
+}
+.virus-spread{
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+.virus-spread img{
+	width: 70px;
+	height: 70px;
+	background-color: #ffff00;
+	border-radius: 50%;
+	padding: 12px;
+}
+
+
+.second-header-content h2{
+	text-transform: capitalize;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+}
+.second-header-content p{
+	text-transform: capitalize;
+	font-size: 0.9rem;
+	text-align: left;
+	color: #000;
+}
+
+
+.row-content{
+	margin: 20px 0 30px 0!important;
+	 box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+	 border-radius: 20px;
+	 padding : 30px;
+     transition: .4s all;
+}
+.row-content:hover{
+	 transform: translateX(20px);
+}
+
+                                 /**********  second-header css ends ********/
+
+
+
+
+/**********  fourth-header css starts ********/
+.fourth-header{
+	text-align: center;
+	background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+	padding-bottom: 30px;
+}
+
+.avengers-heading h1{
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	font-weight: bold;
+	
+}
+
+.avengersurl{
+	background-image: url('images/avengers.png');
+    background-repeat: no-repeat; 
+    background-size: 100% 100% 100% 100%;
+    background-attachment: fixed;
+    background-position: center; 
+	max-width: 100%;
+	height: 400px;
+
+}
+
+
+
+.avengers-heading{
+	padding: 50px;
+}
+.avengers-heading h2{
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: bold;
+	font-style: oblique;
+	word-spacing: 5px;
+	letter-spacing: 2px;
+	color: red;
+	text-shadow: 2px 2px 8px #000; 
+}
+
+.avenger-text p{
+	font-size: 1.5rem;
+	background-color: #ffff00;
+}
+
+.avenger-text{
+	padding: 12px 0 10px 0; 
+}
+
+
+/**********  fourth-header css ends ********/
+
+
+
+
+                           /************** contact us css starts **************/
+.contact-header{
+	background-image: url('images/contactbg.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-bottom: 50px;
+	margin-bottom: -50px;
+}
+
+.contact-row{
+	padding-top: 40px;
+}
+
+.contact-header .heading h1{
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     text-align: center;
+     font-weight: bold
+}
+
+.form-group{
+	padding: 8px 0 10px 0;
+}
+
+input[type="submit"]{background-color: #f4511e; border: none;outline: none;}
+input[type="submit"]:hover{background-color: #13a456; border: none;outline: none;}
+
+input[type="text"] {border: 2px solid steelblue;}
+textarea{border: 2px solid steelblue!important;}
+
+
+
+
+
+                           /**************** contact us css ends *****************/
+
+
+
+/********** Footer Css ********/
+
+
+.footer-style{
+	background-color: #1a1a1a;
+	padding: 5px;
+}
+.footer-style p{margin-bottom: 0px!important; font-weight: normal;}
+
+.footer-top {
+	padding: 40px;
+	margin: 20px 0;
+	width: 100%;
+	background-color: #262626;
+	margin-bottom: 0px!important;
+}
+
+.all-footer{
+	padding: 10px 0 12px 0;
+}
+
+.footer-links{text-align: center;}
+.footer-links li{
+	padding: 10px 0 12px 0;
+	border-bottom: 1px solid #b3b3b3;
+}
+.footer-links li a{
+	text-decoration: none;
+	color: #8c8c8c;
+	font-size: 0.9rem;
+}
+.footer-links li a i{
+	margin-right: 10px;
+}
+.footer-links li a:hover , .footer-links li i:hover {color: #bfbfbf;}
+
+.all-footer h4{
+	color: #fff;
+	font-size: 1.4rem;
+}
+
+
+.footer-sm-links{text-align: center;}
+.footer-sm-links a{
+	padding: 10px;
+	border-radius: 50%;
+	color: #fff;
+	transition: .5s;
+}
+.footer-sm-links a:hover{color: #fff;}
+
+.footer-sm-links i{
+	padding: 15px 0 14px 0;
+	font-size: 1.1rem;
+    text-align: center;
+    transition: .4s;
+}
+.footer-sm-links .facebook{background-color: #3b5998;}
+.footer-sm-links i:hover{transform: translateY(-10px);}
+.footer-sm-links .instagram{background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);}
+.footer-sm-links .whatsapp{background-color: #4fce5d;}
+
+
+#myBtn{
+	display: none;
+	position: fixed;
+	bottom: 55px;
+	right: 35px;
+	z-index: 99;
+	border: none;
+	color: #000;
+	background-color: #f4511e;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: .3s;
+}
+#myBtn:hover{
+	background-color: #13a456;
+}
+
+
+
+
+
+
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #262626;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: #e6ffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.4s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #13a456;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #f4511e;
+}
+.tab button h4{color: #000; font-weight: bold;}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+
+
+
+
+
+/**********  main-header media query starts ********/
+
+@media(max-width: 298px) {
+	nav .navbar-text h1{font-size: 1.2rem;}
+	nav a img{width: 45px; height: 45px;}
+}
+
+@media(max-width: 445px) {
+	.virus-spread img{
+	width: 45px;
+	height: 45px;
+	padding: 10px;
+ }
+}
+
+@media(max-width: 623px){
+	.avengersurl{
+        background-size: 100%;}
+
+.avenger-text{background-color: #ffff00; width: 100%;}
+.avenger-text p{font-size: 1.1rem!important;}
+
+
+.tab{background-color: #fff;}
+.tab button h4{font-size: 1.2rem;}
+
+.virus-spread img{
+	width: 60px;
+	height: 60px;
+	padding-top: 8px;
+  }
+}
+
+
+
+@media(max-width: 991px){
+	.nav-item{
+		text-align: center;
+	}
+
+	nav ul li {border-bottom: 1px solid #8c8c8c;}
+
+	nav button{background-color: #4d4d4d!important;
+		padding: 0 3px!important;
+	}
+
+
+.avenger-text p{font-size: 1.2rem;}
+
+.main-header .main-row-content{
+	padding-top: 40px;
+}
+
+
+    .row-content2 h2{font-size: 1.2rem;}            /*third header  */
+    .row-content2 img{width: 70px; height: 70px;}
+
+
+.heading1 h1{font-size: 1.3rem;}     /*second header  */
+.second-header-content h2{font-size: 1.2rem;}   
+.second-header-content p{font-size: 0.8rem;}
+}
+/**********  main-header media query ends ********/
+
+@media(max-width: 767px){
+	.main-header .left-side-content h2{
+		font-size: 2rem;
+	}
+}
+
+
+
+/**********  dark mode media query starts ********/
+
+@media(prefers-color-scheme: dark) {
+	.second-header h1,h2,p{
+        color: #000;
+	}
+
+	input[type="text"] {background-color: #fff;color:#000; border: 2px solid steelblue; outline: none;}
+    textarea{border: 2px solid steelblue!important; outline: none;}
+
+
+    .contact-header h1{color: #000;}
+    .contact-header label{color: #000;}
+
+    #loading{background-color: #fff;}
+
+    nav .navbar-text h1{color: #000;}
+    nav ul li a{color: #000!important;}
+
+
+    .main-header .left-side-content h1{
+	    text-shadow: 1px 1px 5px #3385ff;
+	    color: #000;
+    }
+     
+     .main-header .left-side-content h1{color: #000;}
+     
+     .third-header h1,h2{color: #000;}
+
+     .fourth-header h1{color: #000;}
+
+}
+
+/**********  dark mode media query ends ********/
